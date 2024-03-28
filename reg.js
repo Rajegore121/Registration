@@ -16,7 +16,7 @@ function registerUser() {
     };
     saveData(userData);
     clearField();
-    window.open("Login.html", "_self"); // Corrected the method to open a new window/tab
+    window.open("login.html", "_self"); // Corrected the method to open a new window/tab
 }
 
 function clearField() { // Corrected the function name to clearField
